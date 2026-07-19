@@ -47,6 +47,3 @@ The application provides a menu-driven interface with the following options:
 - Dates must follow the DD-MM-YYYY format.
 - If no date is provided, the program uses today's date automatically.
 
-## License
-
-This project is for educational and personal use.
