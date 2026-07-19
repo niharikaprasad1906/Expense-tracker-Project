@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-Personal Expense Tracker
-Final Project Implementation
-All requirements met – OOD, CSV persistence, validation, summaries.
-"""
-
 import csv
 import os
 import re
