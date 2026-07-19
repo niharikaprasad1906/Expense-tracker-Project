@@ -1,17 +1,52 @@
-# DeepSeek Python Tool
+# Expense Tracker Project
 
-This repository contains a small Python script `deepseek_python_20260717_e2e35f.py` and a sample CSV `expenses.csv`.
+A simple Python-based personal expense tracker that lets you add, view, search, update, delete, and summarize your expenses using a CSV file for persistence.
 
-## Files
-- `deepseek_python_20260717_e2e35f.py` — main Python script in the workspace
-- `expenses.csv` — sample data file
+## Features
 
-## Usage
-Run the script with Python 3.8+:
+- Add new expenses with title, amount, category, and date
+- View all recorded expenses in a clean table format
+- Search for an expense by ID
+- Update existing expense details
+- Delete expenses with confirmation
+- View summary metrics including:
+  - grand total
+  - total number of records
+  - category-wise spending breakdown
 
+## Project Files
+
+- Expense tracker.py - Main CLI application
+- expenses.csv - Persistent storage for expenses
+
+## How to Run
+
+1. Make sure Python 3 is installed on your system.
+2. Open the project folder in a terminal.
+3. Run:
+
+```bash
+python "Expense tracker.py"
 ```
-python deepseek_python_20260717_e2e35f.py
-```
+
+## Example Usage
+
+The application provides a menu-driven interface with the following options:
+
+1. Add New Expense
+2. View All Expenses
+3. Search Expense
+4. Update Expense
+5. Delete Expense
+6. View Summary Metrics
+7. Exit & Save Data
 
 ## Notes
-- If you want me to push this repository to GitHub, provide an existing repo URL or allow me to create a new repo using the `gh` CLI (must be authenticated).
+
+- Amounts must be numeric and non-negative.
+- Dates must follow the DD-MM-YYYY format.
+- If no date is provided, the program uses today's date automatically.
+
+## License
+
+This project is for educational and personal use.
